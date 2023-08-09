@@ -1,4 +1,5 @@
 'use client'
+import AddTask from "@/components/AddTask"
 import Header from "@/components/Header"
 import { useState, useEffect } from "react"
 
@@ -16,3 +17,4 @@ export default function Home() {
     </>
   )
 }
+ 
