@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@types/node": "20.4.9",
     "@types/react": "18.2.19",
     "@types/react-dom": "18.2.7",
+    "framer-motion": "^10.15.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
     "next": "13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
