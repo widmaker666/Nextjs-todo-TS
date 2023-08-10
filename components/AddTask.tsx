@@ -6,6 +6,9 @@ import { AddTaskPropos } from "@/types";
 const AddTask = ({ task, setTask, handleCreateTask }: AddTaskPropos) => {
   return (
     <>
+    <div className="input-container">
+      label
+    </div>
       <Flex pt="2rem" pl="2rem" pr="2rem" pb="1rem">
         <Input
           placeholder="Add a task"
