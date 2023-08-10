@@ -1,6 +1,5 @@
 # ToDo List App with Next.js and TypeScript
 
-![ToDo List App Screenshot](screenshot.png)
 
 This repository contains a ToDo List application built using Next.js and TypeScript. The app enables users to effectively manage their tasks by providing features to add, delete, and mark tasks as completed. The project follows a clean and organized architecture to ensure maintainability and scalability.
 
@@ -39,13 +38,13 @@ To set up the project on your local machine, follow these steps:
 
    npm run dev
 
-###Access the app:
+### Access the app:
 
 Open your preferred web browser and navigate to http://localhost:3000 to explore the ToDo List app.
 
 
-#Contributing
+# Contributing
 Contributions are welcomed and encouraged! If you encounter any issues or have suggestions for improvements, please feel free to open a pull request. Remember to adhere to the established coding style and conventions.
 
-#License
+# License
 This project is licensed under the MIT License. Refer to the LICENSE file for detailed information.   
