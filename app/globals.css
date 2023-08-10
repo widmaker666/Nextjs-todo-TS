@@ -7,7 +7,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+.chakra-ui-light {
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  height: 100vh;
 }
 
 
@@ -29,7 +34,7 @@ body {
 }
 
 .tasklist-title {
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
   background-clip: text;
   color: transparent;
   font-size: 4rem;
@@ -37,4 +42,11 @@ body {
 
 .tasklist-slogan {
   color: #333333;
+}
+
+
+
+.chakra-input:focus {
+  background: black;
+  color: whitesmoke;
 }
