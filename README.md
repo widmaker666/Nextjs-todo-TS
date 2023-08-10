@@ -1,35 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ToDo List App with Next.js and TypeScript
+
+![ToDo List App Screenshot](screenshot.png)
+
+This repository contains a ToDo List application built using Next.js and TypeScript. The app enables users to effectively manage their tasks by providing features to add, delete, and mark tasks as completed. The project follows a clean and organized architecture to ensure maintainability and scalability.
+
+## Features
+
+- **Add Tasks:** Use the "Add Task" input field to seamlessly insert new tasks into your list.
+
+- **Delete Tasks:** Effortlessly remove tasks that are no longer needed by utilizing the delete button associated with each task.
+
+- **Mark as Completed:** Keep track of completed tasks by toggling their status.
+
+## Architecture Overview
+
+The project is structured in the following manner:
+
+- `components`: This directory houses reusable React components that contribute to the overall user interface.
+
+- `pages`: Contains the main Next.js page components. Each file in this directory corresponds to a different route or page of the application. For example, the `index.tsx` file handles the main ToDo List page.
+
+- `public`: This directory is used to store static assets like images, which can be referenced within your components and pages.
+
+- `styles`: Consists of CSS module files that provide scoped styles for individual components, ensuring separation of concerns and preventing style conflicts.
+
+- `utils`: Contains utility functions, constants, or helper modules that are used across the application.
 
 ## Getting Started
 
-First, run the development server:
+To set up the project on your local machine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. **Clone the repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   git clone https://github.com/widmaker666/Nextjs-todo-TS.git
+   cd Nextjs-todo-TS
+   
+   npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+###Access the app:
 
-## Learn More
+Open your preferred web browser and navigate to http://localhost:3000 to explore the ToDo List app.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#Contributing
+Contributions are welcomed and encouraged! If you encounter any issues or have suggestions for improvements, please feel free to open a pull request. Remember to adhere to the established coding style and conventions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# Nextjs-todo-TS" 
+#License
+This project is licensed under the MIT License. Refer to the LICENSE file for detailed information.   
