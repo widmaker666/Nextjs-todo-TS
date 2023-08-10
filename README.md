@@ -38,13 +38,13 @@ To set up the project on your local machine, follow these steps:
 
    npm run dev
 
-### Access the app:
+## Access the app :
 
 Open your preferred web browser and navigate to http://localhost:3000 to explore the ToDo List app.
 
 
-# Contributing
+## Contributing
 Contributions are welcomed and encouraged! If you encounter any issues or have suggestions for improvements, please feel free to open a pull request. Remember to adhere to the established coding style and conventions.
 
-# License
+## License
 This project is licensed under the MIT License. Refer to the LICENSE file for detailed information.   
